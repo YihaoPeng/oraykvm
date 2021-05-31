@@ -151,7 +151,7 @@ busybox chmod +x /dev/flashcp
 # 如果你看到了done，说明刷好了，控控已经在重启了。如果重启后卡在黄灯，恭喜，U盘救砖吧。祝你迅速进入白灯，然后系统顺利启动。
 ```
 
-顺便提供两个原厂固件，里面的`rootfs.squashfs`重命名为`rootfs.bin`，`uImage`重命名为`kernel.bin`后可供U盘救砖。你也可以用我上面提到的方法免U盘刷入。再次警告，强烈不建议刷写【`/dev/mtd0`或`/dev/mtdblock0`】，也就是`u-boot.bin`。如果`uboot`刷坏了，救砖功能也就不能用了，只能返厂维修或者拆机用编程器重写uboot！
+顺便提供几个原厂固件，里面的`rootfs.squashfs`重命名为`rootfs.bin`，`uImage`重命名为`kernel.bin`后可供U盘救砖。你也可以用我上面提到的方法免U盘刷入。再次警告，强烈不建议刷写【`/dev/mtd0`或`/dev/mtdblock0`】，也就是`u-boot.bin`。如果`uboot`刷坏了，救砖功能也就不能用了，只能返厂维修或者拆机用编程器重写uboot！
 
 [kvm_upgrade_1.3.9_firmware.bz2（12.71 MB）](http://qiniu.img.hu60.cn/file-hash-bz2-35ceab1bc51eee0bec651623655e2bea13328328.bz2)
 
